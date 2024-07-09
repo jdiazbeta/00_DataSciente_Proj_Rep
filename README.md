@@ -1,49 +1,48 @@
-<h1 align="center">Comparaciones básicas de alojamientos en Seattle y Boston</h1>
+<h1 align="center">Basic Accommodation Comparisons in Seattle and Boston</h1>
 
 ## Table of contents
 
-- [Descripción e Instalaciones](#Desc-inst)
-- [Motivación](#Motivación)
-- [Descripción de los archivos](#Desc-files)
-- [Interactuando con el proyecto](#Interact)
+- [Description and Facilities](#Desc-inst)
+- [Motivation](#Motivation)
+- [Description of files](#Desc-files)
+- [Interacting with the project](#Interact)
 
 
-## Descripción e Instalaciones
-El código se encuentra ambientado en el lenguaje de programación Python. Se presenta la capacidad de ser ejecutable tanto en la plataforma de colab como en un cuaderno Jupyter.
+## Description and Facilities
+The code is set in the Python programming language. The ability to be executable both on the colab platform and in a Jupyter notebook is presented.
 
-Para su correcta ejecución se deben tener instalados los siguientes módulos:
+For its correct execution, the following modules must be installed:
 - numpy
 - pandas
 - matplotlib
 - sklearn
 - seaborn
-- Version de Python: 3.10.12
+- Python version: 3.10.12
 
-## Motivación
-Por motivos de intercambio, motivos laborales o netamente ocio y querer descansar y conocer lugares, es importante pensar en el lugar donde se pasará la noche. Los anfitriones, dueños de dichos hospedajes por tanto se interesan en este detalle en pro de poder tener huespedes.
+## Motivation
+For exchange reasons, work reasons or purely for leisure and wanting to rest and see places, it is important to think about the place where you will spend the night. The hosts, owners of said lodgings, are therefore interested in this detail in order to be able to have guests.
 
-De cara al anfitrión una de las principales preguntas sería ¿Cuales son las características que mas valoran los huespedes para sentirse comodos en un alojamiento? ¿Como puedo mejorar la experiencia de los huespedes en pro de ganar confianza para que el hospedaje acoja cada vez mas?
+For the host, one of the main questions would be: What are the characteristics that guests value most to feel comfortable in an accommodation? How can I improve the guest experience in order to gain trust so that the accommodation welcomes more and more?
 
-De cara al huesped la pregunta puede radicar en que factores pueden ser potenciales para un aumento en el valor de un hospedaje.
+For the guest, the question may be what factors may be potential for an increase in the value of a lodging.
 
-Personalmente no suelo viajar mucho, por ende no conozco mucho el tema pero es de particular interés dado que entender desde ahora este tipo de comportamientos apalancará futuras decisiones en cuanto a vacaciones, viajes de negocio u oportunidades de estudio. Esto mas la curiosidad que generá esta labor en pro de poder apoyar en la entrega de herramientas e insights que permitan mejorar dichos servicios.
+Personally, I don't usually travel much, therefore I don't know much about the subject, but it is of particular interest given that understanding this type of behavior from now on will leverage future decisions regarding vacations, business trips or study opportunities. This, plus the curiosity that this work generates in order to support the delivery of tools and insights that allow us to improve these services.
 
-## Descripción de los archivos
-En cuanto a bases de datos, en el repositorio se podrán encontrar:
-- [listings.csv](listings.csv) Contiene información referente a descripciones de alojamientos de Seattle, así como descripciones de la experiencia y calificaciónes de los huespedes, entre otros aspectos de interés. La información fue recolectada de la plataforma [Kaggle](https://www.kaggle.com/datasets/airbnb/seattle/data).
-- [listings_BOS.csv](listings_BOS.csv) Contiene información referente a descripciones de alojamientos de Boston, así como descripciones de la experiencia y calificaciónes de los huespedes, entre otros aspectos de interés. La información fue recolectada de la plataforma [Kaggle](https://www.kaggle.com/datasets/airbnb/boston).
+## Description of files
+Regarding databases, in the repository you can find:
+- [listings.csv](listings.csv) Contains information regarding descriptions of Seattle accommodations, as well as descriptions of guest experience and ratings, among other aspects of interest. The information was collected from the platform [Kaggle](https://www.kaggle.com/datasets/airbnb/seattle/data).
+- [listings_BOS.csv](listings_BOS.csv) It contains information regarding descriptions of accommodations in Boston, as well as descriptions of the experience and ratings of guests, among other aspects of interest. The information was collected from the platform [Kaggle](https://www.kaggle.com/datasets/airbnb/boston).
 
-En cuanto a código, el archivo [Project_1_Airborn_SyB.ipynb](https://github.com/jdiazbeta/00_DataSciente_Proj_Rep/blob/a5484dc4ed7933d70d13f0edaa3afb6f213d9cad/Project_1_Airborn_SyB.ipynb) contiene el código realziado para llevar a cabo el análisis. 
+As for code, the file [Project_1_Airborn_SyB.ipynb](https://github.com/jdiazbeta/00_DataSciente_Proj_Rep/blob/a5484dc4ed7933d70d13f0edaa3afb6f213d9cad/Project_1_Airborn_SyB.ipynb) contains the code made to carry out the analysis.
 
-## Interactuando con el proyecto
-El proyecto esta pensado para dar un primer bosquejo en cuanto a un gran proyecto que permita dar a entender, bajo la perspectiva de huesped como de anfitrión, las principales características a la hora de escoger alojamiento que van desde el precio, sus características e incluso potenciales mejoras dada su ubicación geográfica. 
+## Interacting with the project
+The project is designed to give a first outline of a large project that allows us to understand, from the perspective of both guest and host, the main characteristics when choosing accommodation ranging from the price, its characteristics and even potential. improvements given its geographical location.
 
-Este cuaderno puede descargarse para trabajar de manera local o desde google colab.
+This notebook can be downloaded to work locally or from Google Colab.
 
-Se emplean técnicas basicas de imputación de datos, así como un muy breve análisis descriptivo - exploratorio. Así mismo, se usa la librería de Skit-Learn para crear un modelo de regresión lineal multiple para entender las potenciales variables que impactan significativamente al precio de alojamiento.
+Basic data imputation techniques are used, as well as a very brief descriptive - exploratory analysis. Likewise, the Skit-Learn library is used to create a multiple linear regression model to understand the potential variables that significantly impact the accommodation price.
 
-A corte de Julio 8 de 2024 el código es funcional, y muy disponible para uso y mejora, esta apenas es la primer versión, realizada a modo de exploración inicial. Invito a mejorarlo para futuros trabajos brindando nuevas perspectivas , desde la depuración y análisis descriptivos hasta modelos que resulten de interés.
-
+As of July 8, 2024, the code is functional, and very available for use and improvement, this is only the first version, made as an initial exploration. I invite you to improve it for future work by providing new perspectives, from debugging and descriptive analysis to models that are of interest.
 
 
 
