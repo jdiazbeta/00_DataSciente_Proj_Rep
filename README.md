@@ -6,7 +6,7 @@
 - [Motivation](#Motivation)
 - [Description of files](#Desc-files)
 - [Interacting with the project](#Interact)
-
+- [Acknowledgments]("#Acknowledgments)
 
 ## Description and Facilities
 The code is set in the Python programming language. The ability to be executable both on the colab platform and in a Jupyter notebook is presented.
@@ -44,7 +44,13 @@ Basic data imputation techniques are used, as well as a very brief descriptive -
 
 As of July 8, 2024, the code is functional, and very available for use and improvement, this is only the first version, made as an initial exploration. I invite you to improve it for future work by providing new perspectives, from debugging and descriptive analysis to models that are of interest.
 
+## Acknowledgments
+I want to express my deep gratitude to the following platforms and communities for their invaluable support and resources that made this project possible:
 
+UDACITY: For providing the knowledge and tools, as well as practical scenarios that increase my interest in data science.
+Kaggle: For providing robust data sets that allowed the completion of this project, as well as increasing my interest in data science.
+
+Additionally, I am grateful to all those who have directly or indirectly contributed to this work through comments, suggestions, and shared resources.
 
 
 
